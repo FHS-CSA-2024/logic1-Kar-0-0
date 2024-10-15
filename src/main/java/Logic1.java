@@ -347,7 +347,6 @@ public class Logic1
 	greenTicket(2, 2, 2) --> 20
 	greenTicket(1, 1, 2) --> 10 */
 	public int greenTicket(int a, int b, int c) {
-	  public int greenTicket(int a, int b, int c) {
 	  if (a != b && b != c && a != c){
 	    return 0;
 	  }else if (a == b && b == c){
